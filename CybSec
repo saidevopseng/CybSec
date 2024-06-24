@@ -1,0 +1,420 @@
+Tools and methods used in Cyber Crime
+=====================================
+Network attack incidents reveal that attackers are often very systematic in launching their 
+attacks. The basic stages of an attack are described here to understand how an attacker can compromise a network here 
+1. Initial Uncovering 
+2. Network probe 
+3. Crossing the line toward electronic crime (E-crime) 
+4. Capturing the network 
+5. Grab the data 
+6. Covering tracks 
+
+1. Initial Uncovering Two steps are involved here. In the ﬁrst step called as reconnaissance, the attacker gathers information, as 
+much as possible, about the target by legitimate means – searching the information about the target on the Internet by Googling 
+social networking websites and people ﬁnder websites. 
+
+2. Network probe At the network probe stage, the attacker uses more invasive techniques to scan the information. Usually, a 
+“ping sweep” of the network IP addresses is performed to seek out potential targets, and then a “port scanning” tool. 
+
+3. Crossingthe line towardelectroniccrime (E-crime) Now the attacker is toward committing what is technically a “computer crime.” 
+He/she does this by exploiting possible holes on the target system. 
+
+4. Capturing thenetwork At this 
+stage, the attacker attempts to “own” the network. The attacker gains a foothold in the internal network quickly and easily, by 
+compromising low-priority target systems. The next step is to remove any evidence of the attack. 
+
+5. Grab the data: Now that the attacker has “captured the network” he/she takes advantage of his/her positiontostealconﬁdentialdata, 
+customercreditcardinformation, defacewebpages, alterprocesses and even launch attacks at other sites from your network, causing a 
+potentially expensive and embarrassing situation for an individual and/or for anorganization. 
+
+6. Covering tracks 
+This is the last step in any cyber-attack, which refers to the activities undertaken by the attacker to extend misuse of the system 
+without being detected.  
+
+Proxy Servers and Anonymizers 
+=============================
+Proxy server is a computer on a network which acts as an intermediary for connections with other computers on that network. The 
+attacker ﬁrst connects to a proxy server and establishes a connection with the target system through existing connection with proxy. 
+
+A proxy server has following purposes: 
+1. Keep the systems behind the curtain (mainly for securityreasons). 
+2. Speed up access to a resource (through “caching”). It is usually used to cache the webpages from a web server. 
+3. Specialized proxy servers are used to ﬁlter unwanted content such as advertisements. 
+4. Proxyserver can be used as IP address multiplexer to enable to connect number ofcomputers onthe Internet, whenever one has only one
+IP address.
+
+One of the advantages of a proxy server is that its cache memory can serve all users. If one or more websites are requested
+frequently, may be by diﬀerent users, it is likely to be in the proxy’s cache memory, which will improve user responsetime. Infact 
+there are special servers available known as cache servers? A proxy can also do logging. 
+
+Listed are few websites where free proxy servers can be found: 
+1. http://www.proxy4free.com 
+2. http://www.publicproxyservers.com 
+3. http://www.proxz.com 
+4. http://www.anonymitychecker.com 
+5. http://www.surf24h.com 
+
+
+Proxy Servers:
+==============
+A proxy server is an intermediary server that seperates end users from the website they browse, proxy servers provides varying levels 
+of functionality, security and privacy depending on your needs, company policies, or privacy concerns.
+
+Functions of proxy servers:
+===========================
+Anonymity:
+==========
+By masking the users ip address, aproxy server helps to maintain user anonymity. this can be particularly useful for privacy-concious
+users and organizations looking to protect their identity online.
+
+Security:
+=========
+Proxy servers can act as a firewall and webfilter, providing additional security by blocking access to malicious websites and 
+preventing attacks such as distributed denial of service(DDOS)
+
+Content Filtering:
+=================
+Organizations use proxy servers to filter internet traffic, blocking access to certain websites or content deemed inappropriate or
+dangerous.
+
+Caching:
+=======
+Proxy servers can cache frequently accessed websites and content, improving load times and reducing bandwidth usage.
+
+Control:
+=======
+Organizations can monitor and control employee internet usage, ensuring compliance with the company policies and improving the 
+productivity
+
+Types of Proxy Servers:
+=======================
+Forward Proxy:
+=============
+used to forward requests from internal network users to the internet. it is commonly used in corporate networks to enforce internet 
+usage policies and provide additional security
+
+Reverse Proxy:
+=============
+Sits infront of the web server and forwards client requests to the appropriate backend server. it helps in load balancing, caching and
+improving security.
+
+Transparent Proxy:
+=================
+Intercepts requests without modifying them, often used for content filtering and caching without requiring any client side 
+configuration 
+
+Anonymous Proxy:
+===============
+Provides anonymity by hiding usres ip address, masking it difficult to trace the users online activity
+
+Real-World Example:
+===================
+Imagine you are at a company where internet usage is monitored and restricted. To access a website that is blocked by your company’s 
+network, you might use a proxy server.
+
+How It Works:
+=============
+You configure your web browser to use a proxy server.
+When you try to visit a blocked website, your request is first sent to the proxy server.
+The proxy server then forwards your request to the target website.
+The website's response goes back to the proxy server.
+The proxy server sends the response back to you.
+
+Example:
+=======
+Suppose you want to access "example.com" which is blocked at your workplace.
+
+You set up a proxy server located in another country (e.g., UK).
+You request "example.com" via the proxy server.
+The proxy server (in the UK) fetches "example.com" on your behalf.
+The content of "example.com" is sent back to your device through the proxy server.
+
+Anonymizers
+===========
+An Anonymizers or an anonymous proxy is a tool that attempts to make activityon the Internet untraceable. It accesses the Internet on 
+the user’s behalf, protecting personal information by hiding the source computer’s identifying information. 
+
+An anonymizer is a tool that makes internet activity anonymous by routing the users traffic through different servers to hide ip 
+address and encrypt their internet traffic.
+
+Listed are few websites where more information about Anonymizers can be found: 
+1. http://www.anonymizer.com 
+2. http://www.browzar.com 
+3. http://www.anonymize.net 
+4. http://www.anonymouse.ws 
+5. http://www.anonymousindex.com 
+
+Functions of anonymizers:
+========================
+Privacy Protection
+==================
+Anonymizers help protect user privacy by masking their real IP address and encrypting their internet traffic, making it difficult for
+websites and third parties to track their online activities.
+
+Access to Restricted content:
+=============================
+Users can bypass geographic restrictions and censorship to access blocked websites and content by using anonymizers.
+
+Data Protection:
+================
+Anonymizers provide an additional layer of security by encrypting data, protecting users from potential data breaches and surveillance
+
+Tpes of Anonymizers
+===================
+VPNs (Virtual Private Networks)
+====
+VPNs route internet traffic through encrypted tunnels, hiding the users IP address and securing their data. they are widely used for 
+both privacy and security.
+
+Tor (The Onion Router)
+===
+Tor routes internet traffic through a network of volunteer-operated servers (nodes) that encrypt the data multiple times. it provides
+high levels of anonymity but may reduce browsing speed.
+
+Web-based Anonymizers:
+======================
+These are websites that acts as proxies, allowing users to browse anonymously by entering the URL of the site they wish to visit.
+they are easy to use but often offer limited functionality compared to VPN and Tor
+
+Use Cases and Examples
+=======================
+Bypassing Geo-Restrictions:
+===========================
+Users in countries with strict internet censorship can use proxy servers or anonymizers to access restricted websites and content. 
+For example, a user in China might use a VPN to access Google or YouTube.
+
+Secure Remote Access:
+=====================
+Employees working remotely can use VPNs to securely connect to their company's network, ensuring their data is encrypted and protected
+from potential threats.
+
+Research and Investigations:
+===========================
+Researchers and investigators can use anonymizers to gather information without revealing their identity or location, protecting their
+privacy and safety.
+
+Protecting Sensitive Communications:
+====================================
+Journalists and activists can use tools like Tor to communicate securely and anonymously, protecting their sources and themselves from
+surveillance and retaliation.
+
+Best Practices for Using Proxy Servers and Anonymizers
+======================================================
+Choose Reliable Providers:
+=========================
+Use reputable proxy server and anonymizer providers to ensure data security and privacy.
+
+Understand Limitations:
+=======================
+Be aware of the limitations and potential risks, such as reduced browsing speed with Tor or potential logging policies of some VPN 
+providers.
+
+Regularly Update Software:
+==========================
+Keep proxy server and anonymizer software up to date to protect against vulnerabilities and security threats.
+Combine with Other Security Measures:
+
+Use proxy servers and anonymizers in conjunction with other security measures, such as antivirus software, firewalls, and secure 
+passwords, to enhance overall protection.
+
+Anonymizer
+===========
+An anonymizer is a tool that makes your internet activity untraceable. It hides your IP address and encrypts your data to protect 
+your identity and location.
+
+Real-World Example:
+Consider the Tor network (The Onion Router), which is a widely used anonymizer.
+
+How It Works:
+=============
+When you use Tor, your internet traffic is routed through a series of volunteer-operated servers called nodes.
+Each node only knows the IP address of the previous and next node, not the complete path.
+Your data is encrypted multiple times and decrypted layer by layer at each node, which is why it’s called "Onion Routing".
+
+Example:
+========
+You want to visit "example.com" anonymously to avoid being tracked by any entities.
+
+You connect to the Tor network.
+Your request to visit "example.com" is routed through several Tor nodes around the world.
+Each node peels away a layer of encryption, revealing the next destination.
+The final node (exit node) sends your request to "example.com".
+"Example.com" sees the request coming from the Tor exit node, not from you.
+The response is routed back through the Tor network to your device.
+Comparison
+
+Proxy:
+======
+Primarily used to bypass restrictions and filter content.
+Hides your IP address but may not fully protect your privacy.
+Easier to set up and usually faster.
+
+Anonymizer (like Tor):
+======================
+Focuses on privacy and anonymity.
+Routes traffic through multiple nodes to obscure your identity.
+Can be slower due to multiple encryption layers and nodes.
+
+Conclusion:
+===========
+Both proxies and anonymizers are used to conceal your IP address and location, but proxies are often simpler and faster, while 
+anonymizers provide a higher level of privacy and security at the cost of speed.
+
+Phishing Password Cracking
+==========================
+While checking electronic mail (E-Mail) one day a user ﬁnds a message from the bank threatening him/her to close the bank account if 
+he/she does not reply immediately. Although the message seems to be suspicious from the contents of the message, it is diﬃcult to 
+conclude that it is a fake/false E- Mail. It is believed that Phishing is an alternative spelling of “fishing,” as in “to fish for 
+information.” The first documented use of the word “Phishing” was in 1996. 
+
+Phishing is a cyber attack method where attackers disguise themselves as a trustworthy entity to deceive individuals into providing 
+sensitive information such as usernames, passwords, credit card numbers, or other personal details. Phishing attacks can occur via 
+email, social media, phone calls, or fake websites.
+ 
+1. How Phishing Works? 
+======================
+Phishers work in the following ways 
+
+1. Planning: Criminals, usually called as phishers, decide the target and determine how to get E- Mail address of that target or 
+customers of that business. Phishers often use mass mailing and address collection techniques as spammers. 
+
+2. Setup: Once phishers know which business/business house to spoof and who their victims are, they will create methods for 
+delivering the message and to collect the data about the target. Most often this involves E-Mail addresses and a webpage. 
+
+3. Attack: This is the step people are most familiar with the phisher sends a phony message that appears to be from a reputable source.
+
+4. Collection: Phishers record the information of victims entering into webpages or pop-up windows. 
+
+5. Identity theft and fraud: Phishers use the information that they have gathered to make illegal purchases or commit fraud. 
+
+Phishing started oﬀ as being part of popular hacking culture. Nowadays, more and more organizations/institutes provide greater online 
+access for their customers and hence criminals are successfully using Phishing techniques to steal personal information and conduct 
+ID theft at a global level. We have explained Phishing and Identity theft. 
+
+Real-World Examples of Phishing:
+
+The Sony Pictures Hack (2014):
+==============================
+Incident: Sony Pictures Entertainment suffered a major cyber attack where sensitive information, including employee emails, personal 
+=========
+data, and unreleased films, was leaked.
+
+Phishing Vector: The attackers used spear-phishing emails that appeared to be from Apple, prompting recipients to enter their Apple ID
+===============
+and password. This allowed the hackers to gain access to the victims' accounts and move laterally within the network.
+
+Google and Facebook Scam (2013-2015):
+=====================================
+Incident: A Lithuanian hacker tricked Google and Facebook into transferring over $100 million.
+Phishing Vector: The attacker sent fake invoices to Google and Facebook employees that appeared to come from a legitimate hardware vendor. The emails included instructions to transfer funds to accounts controlled by the hacker.
+John Podesta Email Phish (2016):
+
+Incident: John Podesta, the chairman of Hillary Clinton’s 2016 presidential campaign, had his email account compromised.
+Phishing Vector: Podesta received a phishing email disguised as a security alert from Google, urging him to change his password. The email contained a malicious link, which led to the compromise of his email account when he followed the instructions.
+
+2. Password Cracking 
+====================
+Password is like a key to get an entry into computerized systems like a lock. Password cracking is a process of recovering passwords 
+from data that have been stored in or transmitted by a computer system. 
+
+Password Cracking refers to the process of recovering passwords from data that has been stored in or transmitted by a computer system.
+Common methods include brute-force attacks, dictionary attacks, and rainbow table attacks.
+
+The purpose of password cracking is as follows: 
+1. To recover a forgotten password. 
+2. As a preventive measure by system administrators to check for easily crackable passwords. 
+3. To gain unauthorized access to a system. 
+
+Manual password cracking is to attempt to logon with diﬀerent passwords. The attacker follows the following steps 
+	1. Find a valid user account such as an administrator or guest; 
+	2. Create a list of possible passwords; 
+	3. Rank the passwords from high to low probability; 
+	4. Key-in each password; 
+	5. Try again until a successful password is found. Passwords can be guessed sometimes with knowledge of the user’s personal 
+	   information: 
+		1. Blank (none); 
+		2. The words like “password,” “passcode” and “admin”; 
+		3. Series of letters from the “qwerty” keyboard, for example, qwerty, asdf or qwertyuiop. 
+	4. User’s name or login name; 
+	5. Name of user’s friend/relative/pet; 
+	6. User’s birthplace or date of birth, or a relative’s or afriend’s; 
+	7. User’s vehicle number, oﬃce number, residence number or mobile number; 
+	8. Name of a celebrity who is considered to be an idol by the user; 
+	9. Simple modiﬁcation of one of the preceding, such as suﬃxing a digit, particularly 1, or reversing the order of letters. 
+
+Real-World Examples of Password Cracking:
+
+LinkedIn Data Breach (2012):
+Incident: Over 6.5 million LinkedIn user passwords were stolen and leaked online.
+Cracking Method: The passwords were stored using an outdated hashing algorithm (SHA-1) without salting. Hackers used brute-force and 
+dictionary attacks to crack a significant number of these hashes, exposing the plaintext passwords.
+
+RockYou Hack (2009):
+Incident: Social application developer RockYou experienced a data breach where over 32 million user accounts were exposed.
+Cracking Method: The passwords were stored in plaintext, meaning they were not encrypted or hashed. Once the data was stolen, no 
+additional cracking was necessary as the passwords were already in a readable format.
+
+Adobe Systems Breach (2013):
+Incident: Hackers accessed and stole data of 153 million Adobe accounts.
+Cracking Method: The stolen passwords were encrypted but not hashed, and the encryption was poorly implemented. Hackers used a 
+combination of known-plaintext attacks and other techniques to decrypt many of the passwords.
+
+Online Attacks 
+==============
+An attacker can create a script ﬁle (i.e., automated program) that will be executed to try each password in a list and when matches, 
+an attacker can gain the access to the system. The most popular online attack is man-in-the middle (MITM) attack, also termed as 
+“bucket-brigade attack” or sometimes “Janus attack.” 
+
+Offline Attacks 
+===============
+Mostly oﬄine attacks are performed from a location other than the target (i.e., either a computer system or while on the network) 
+where these passwords reside or are used. 
+
+Strong, Weak and Random Passwords 
+=================================
+A weak password is one, which could be easily guessed, short, common and a system default password that could be easily 
+found byexecuting a brute force attack and byusing a subset of all possible passwords. 
+
+Here are some of the examples of “weak passwords”:
+1. Srinivas: Common personal name; 
+2. aaaa: repeated letters, can be guessed; 
+3. puppy: common name for a pet, also a dictionary word; 
+4. abc123: can be easily guessed; 
+5. admin: can be easily guessed; 
+6. 1234: can be easily guessed; 
+7. QWERTY: a sequence of adjacent letters on many keyboards; 
+8. 12/3/24: date, possibly of personal importance; 
+9. khitstd46: probably a username, and if so, can be very easily guessed; 
+10. p@$$\/\/0rd: simple letter substitutions are preprogrammed into password cracking tools; 
+11. password: used very often – trivially guessed; 
+12. December12: using the date of a forced password change is very common. 
+
+Here are some examples of strong passwords: 
+
+1. Convert_£100 to Euros!: Such phrases are long, memorable and contain an extended symbol
+to increase the strength of the password. 
+2. 382465304H: It is mix of numbers and a letter at the end, usually used on mass user accounts and such passwords can be generated 
+randomly. 
+3. 4pRte!ai@3: It is not a dictionary word; however it has cases of alpha along with numeric and punctuation characters. 
+4. MoOoOfIn245679: It is long with both alphabets and numerals. 
+5. t3wahSetyeT4: It is not a dictionary word; however, it has both alphabets and numerals. 
+
+Random Passwords
+================
+We have explained in the previous section how most secure passwords are long with random strings of characters and how such passwords 
+are generally most diﬃcult to remember. Password is stronger if it includes a mix of upper and lower case letters, numbers and other 
+symbols, when allowed, for the same number of characters. 
+
+The general guidelines applicable to the password policies, which can be implemented 
+organization-wide, are as follows: 
+1. Passwords and user logon identities (IDs) should be unique to each authorized user. 
+2. Passwords should consist of a minimum of eight alphanumeric characters. 
+3. There should be computer-controlled lists of prescribed password rules and periodic testing to identify any password weaknesses. 
+4. Passwords should be kept private, that is, not shared with friends, colleagues. 
+5. Passwords shall be changed every 30/45 days or less. 
+6. User accounts should be frozen after ﬁve failed logon attempts. 
+7. Sessions should be suspended after 15 minutes (or other speciﬁed period) of inactivity and require the passwords to be re-entered. 
+8. Successful logons should display the date and time of the last logon and logoﬀ. 
+9. Logon IDs and passwords should be suspended after a speciﬁed period of non-use. 
+10. For high-risk systems, after excessive violations, the system should generate an alarm and be able to simulate a continuing 
+session (with dummy data) for the failed user.
