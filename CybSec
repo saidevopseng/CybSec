@@ -693,3 +693,311 @@ steps.
 
 By understanding these types of malicious software and implementing preventive measures, individuals and organizations can better 
 protect their systems and sensitive information from cyber threats.
+
+Trojan Horses and Backdoors 
+===========================
+Trojan Horse is a program in which malicious or harmful code is contained inside apparently harmless programming or data in such a way
+that it can get control and cause harm, for example, ruining the ﬁle allocation table on the hard disk. ATrojan Horse may get 
+widely redistributed as part of a computer virus. The term Trojan Horse comes from Greek mythology about the Trojan War. 
+
+Trojan Horses are malicious programs disguised as legitimate software. They appear harmless but contain hidden functionalities that 
+allow attackers to gain unauthorized access or damage systems. For example:
+
+Scenario: A popular software download site unknowingly distributes a Trojan horse disguised as a free antivirus tool. Once installed, 
+it gives remote control of the victim's computer to the attacker.
+Example: A Trojan horse embedded in a seemingly innocent email attachment executes commands to delete files or encrypt data, demanding
+a ransom for decryption.
+
+Some typical examples of threats by Trojans are as follows
+----------------------------------------------------------
+1. They erase, overwrite or corrupt data on a computer. 
+2. They help to spread other malware such as viruses (by a dropper Trojan). 
+3. They deactivate or interfere with antivirus and ﬁrewall programs. 
+4. They allow remote access to your computer (by a remote access Trojan). 
+5. They upload and download ﬁles without your knowledge. 
+6. They gather E-Mail addresses and use them for Spam. 
+7. They log keystrokes to steal information such as passwords and credit card numbers. 
+8. They copy fake links to false websites, display porno sites, play sounds/videos and display images. 
+9. They slow down, restart or shutdown the system. 
+10. They reinstall themselves after being disabled. 
+11. They disable the task manager. 
+12. Theydisablethecontrol panel. 
+
+Countermeasures for Trojan Horses:
+----------------------------------
+Antivirus and Antimalware Software: Regularly update and run reputable antivirus and antimalware programs to detect and remove 
+Trojans.
+User Education: Educate users about the risks of downloading and installing software from untrusted sources.
+Regular Updates: Keep all software and operating systems up to date with the latest security patches.
+Email Filtering: Use email filters to block malicious attachments and links.
+Access Control: Implement strict access control policies to limit the installation of software to authorized personnel only.
+
+Backdoor 
+--------
+A backdoor is a means of access to a computer program that bypasses security mechanisms. A programmer may sometimes install 
+a backdoor so that the program can be accessed for troubleshooting or other purposes. 
+
+Backdoors are intentional or unintentional vulnerabilities in software or systems that bypass normal authentication mechanisms, 
+allowing unauthorized access. 
+
+Scenario: A software developer accidentally leaves a debugging backdoor in a banking application's code, enabling anyone aware of its 
+existence to bypass login credentials and access sensitive financial data.
+Example: A sophisticated hacker exploits a backdoor left by an employee who installed remote access software on a corporate server, 
+enabling persistent unauthorized access to company networks.
+
+Following are a few examples of backdoor Trojans: 
+1. Back Oriﬁce: It is a well-known example of backdoor Trojan designed for remote system administration. It enables a user to control 
+a computer running the Microsoft Windows OS from a remote location. The name is a word play on Microsoft Back Oﬃce Server software. 
+Readers may visit http://www.cultdeadcow.com/tools/bo.html to know more about backdoor. 
+
+2. Bifrost: It is another backdoor Trojan that can infect Windows 95 through Vista. It uses the typical server, server builder and 
+client backdoor program conﬁguration to allow a remote attacker, who uses client, to execute arbitrary code on the compromised machine. 
+
+3. SAP backdoors: SAP is an Enterprise Resource Planning (ERP) system and nowadays ERP is the heart of the business technological 
+platform. These systems handle the key business processes of the organization, such as procurement, invoicing, human resources 
+management, billing, stock management and ﬁnancial planning. 
+
+4. Onapsis Bizploit: It is the open-source ERP penetration testing framework developed by the Onapsis Research Labs. Bizploit assists 
+security professionals in the discovery, exploration, vulnerability assessment and exploitation phases of specialized ERP penetration 
+tests. Readers may visit http://www.onapsis.com/research.html to know more about this tool. 
+
+How to Protect from Trojan Horses and Backdoors 
+Follow the following steps to protect your systems from Trojan Horses and backdoors: 
+1. Stay away from suspect websites/weblinks: Avoid downloading free/pirated software’s that often get infected by Trojans, worms, 
+viruses and other things. 
+2. Surf on the Web cautiously: Avoid connecting with and/or downloading any information from peer-to-peer (P2P) networks, which are 
+most dangerous networks to spread Trojan Horses and other threats. 
+3. It may be experienced that, after downloading the ﬁle, it never works and here is a threat that although the ﬁle has not worked, 
+something must have happened to the system the malicious software deploys its gizmos and the system is at serious health risk. 
+4. Install antivirus/Trojan remover software: Nowadays antivirus software(s) have built-in feature for protecting the system not only 
+from viruses and worms but also from malware such as Trojan Horses. 
+ 
+Countermeasures for Backdoors:
+------------------------------
+Code Reviews and Audits: Conduct regular code reviews and security audits to identify and remove potential backdoors.
+Intrusion Detection Systems (IDS): Deploy IDS to monitor network traffic for unusual or suspicious activities that may indicate a 
+backdoor.
+Change Management: Implement robust change management processes to ensure that all changes to the system are reviewed and approved.
+Least Privilege Principle: Follow the principle of least privilege, ensuring users and applications have the minimum necessary access.
+Security Policies: Develop and enforce security policies that prohibit unauthorized modifications to software and systems.
+
+Steganography 
+-------------
+Steganography is a Greek word that means “sheltered writing.” It is a method that attempts to hide the existence of a message or 
+communication. The word “steganography” comes from the two Greek words: steganos meaning “covered” and graphein meaning “to write” 
+that means “concealed writing.” 
+
+Steganography is the practice of concealing data within another file, message, or image to hide its existence. It's used to transmit 
+sensitive information covertly. For example:
+
+Scenario: A criminal embeds encrypted messages within digital images posted on social media, allowing collaborators to retrieve 
+instructions for illegal activities without arousing suspicion.
+Example: A corporate spy conceals sensitive company data within an innocuous-looking PDF file, evading detection while exfiltrating 
+proprietary information from the organization's network.
+  
+1. Steganography tools 
+-----------------------
+DiSi-Steganograph 
+------------------
+It is a very small, DOS-based steganographic program that embeds data in PCX images. 
+
+Invisible Folders 
+-----------------
+It has the ability to make any ﬁle or folder invisible to anyone using your PC even on a network. 
+ 
+Invisible Secrets 
+It not only encrypts the data and ﬁles for safe-keeping or for secure transfer across the Net but also hides them in places such as 
+picture or sound ﬁles or webpages. These types of ﬁles are a perfect disguise for sensitive information. 
+
+Stealth Files 
+It hides any type of ﬁle in almost any other type of ﬁle. Using steganography technique, Stealth Files compresses, encrypts and then 
+hides any type of ﬁle inside various types of ﬁles (including EXE, DLL, OCX, COM, JPG, GIF, ART, MP3, AVI, WAV, DOC, and BMP) and 
+other types of video, image and executable ﬁles. 
+
+2. Steganalysis Steganalysis is the art and science of detecting messages that are hidden in images, audio/video ﬁles using 
+steganography. The goal of steganalysis is to identify suspected packages and to determine whether or not they have a payload encoded 
+into them, and if possible recover it. Automated tools are used to detect such steganographed data/information hidden in the image and
+audio and/or video ﬁles. 
+
+Countermeasures:
+
+Steganalysis Tools: Use steganalysis tools to detect hidden information within files and images.
+Network Monitoring: Monitor network traffic for patterns indicative of steganographic communications.
+Data Loss Prevention (DLP): Implement DLP solutions to detect and prevent the transmission of unauthorized data.
+File Integrity Checking: Regularly check the integrity of files to identify unauthorized modifications.
+Education and Awareness: Educate employees about the risks of steganography and how to recognize potential signs.
+
+Sniffers
+---------
+Sniffers are tools that intercept and log network traffic, capturing data packets transmitted over a network segment. They are used 
+for legitimate purposes in network troubleshooting but can be exploited maliciously.
+
+Scenario: A hacker deploys a packet sniffer on a public Wi-Fi network, capturing unencrypted login credentials of unsuspecting users 
+logging into their email accounts.
+Example: A cybersecurity analyst uses a packet sniffer to monitor internal network traffic for signs of unauthorized data exfiltration
+or suspicious activities.
+
+Countermeasures:
+
+Encryption: Use encryption protocols (e.g., TLS/SSL) to protect data in transit, making it unreadable to sniffers.
+Secure Wi-Fi: Use WPA3 encryption for wireless networks and avoid using unsecured public Wi-Fi.
+Network Segmentation: Segment networks to limit the exposure of sensitive data to potential sniffers.
+Promiscuous Mode Detection: Use tools to detect network interfaces in promiscuous mode, which indicates potential sniffing.
+Network Access Control (NAC): Implement NAC to restrict access to the network based on the device's security posture.
+
+Spoofing
+---------
+Spoofing involves impersonating someone or something else to gain unauthorized access, deceive users, or manipulate data. Types 
+include IP spoofing, email spoofing, and website spoofing.
+
+Scenario: An attacker uses IP spoofing to forge the source IP address of outgoing network packets, making it appear that the data 
+originates from a trusted internal server to bypass firewall restrictions.
+Example: A phishing email spoofing a bank's official domain tricks recipients into clicking a link that directs them to a fake website
+where they unwittingly disclose their login credentials.
+
+Countermeasures:
+----------------
+Authentication Mechanisms: Use strong authentication methods, such as multi-factor authentication (MFA), to verify the identity of 
+users and devices.
+Digital Signatures: Employ digital signatures to verify the integrity and origin of messages and data.
+IP and MAC Address Filtering: Implement IP and MAC address filtering to prevent unauthorized devices from connecting to the network.
+Email Authentication: Use email authentication protocols like SPF, DKIM, and DMARC to protect against email spoofing.
+Network Security Measures: Employ network security measures such as firewalls, intrusion prevention systems (IPS), and VPNs to detect 
+and prevent spoofing attempts.
+
+Session Hijacking
+-----------------
+Session Hijacking involves intercepting and taking over an active session between a user and a web application, typically to gain 
+unauthorized access or impersonate the user. 
+
+Scenario: An attacker on the same public Wi-Fi network as a user captures their session cookies through packet sniffing and uses them 
+to impersonate the user, gaining access to their online banking account.
+Example: Cross-site scripting (XSS) vulnerabilities allow an attacker to inject malicious scripts into a web application, enabling 
+session hijacking and unauthorized access to user accounts.
+
+Countermeasures:
+
+Encryption: Encrypt session data using HTTPS to protect against interception and hijacking.
+Secure Cookies: Use secure, HttpOnly, and SameSite attributes for cookies to prevent theft and misuse.
+Session Timeouts: Implement session timeouts to automatically log out users after a period of inactivity.
+Regenerate Session IDs: Regenerate session IDs upon login and periodically during the session to prevent fixation attacks.
+Intrusion Detection Systems (IDS): Use IDS to monitor for abnormal session activity that may indicate hijacking attempts.
+
+Buffer Overflow 
+---------------
+Buﬀer overﬂow, or buﬀer overrun, is an anomaly where a process stores data in a buﬀer outside the memory the programmer has set aside 
+for it. The extra data overwrites adjacent memory, which may contain other data, including program variables and program ﬂow control 
+data. This may result in erratic program behavior, including memory access errors, incorrect results, program termination (a crash) or
+a breach of system security. 
+
+Buffer Overflow occurs when a program or process tries to store more data in a buffer (temporary storage area) than it was intended to
+hold. This can lead to overwriting adjacent memory, causing crashes, corruption, or execution of malicious code. 
+
+Scenario: A web server fails to validate input size in a form field, allowing an attacker to input a large amount of data that exceeds
+the buffer's capacity, overwriting critical memory addresses and gaining control of the server.
+Example: A video streaming application vulnerable to buffer overflow allows an attacker to send specially crafted video files that 
+exploit the buffer overflow to execute arbitrary commands on the user's device
+ 
+In C and C++, there are no automatic bounds checking on the buﬀer – which means a user can write past a buﬀer. 
+
+For example, 
+int main () { int buffer[10]; buffer[20] = 10; } 
+
+Types of Buffer Overflow
+------------------------- 
+1. Stack-Based Buffer Overflow 
+1. Stack buﬀer overﬂow occurs when a program writes to a memory address on the program’s call stack out- side the intended data 
+structure usually a ﬁxed length buﬀer. 
+2. “Stack” is a memory space in which automatic variables are allocated. 
+3. Function parameters are allocated on the stack and are not automatically initialized by the system, so they usually have garbage in
+them until they are initialized. 
+4. Once a function has completed its cycle, the reference to the variable in the stack is removed. 
+
+The attacker may exploit stack-based buﬀer overﬂows to manipulate the program in various ways by overwriting: 
+1. A local variable that is near the buﬀer in memory on the stack to change the behavior of the program that may beneﬁt the attacker. 
+2. The return address in a stack frame. Once the function returns, execution will resume at the return address as speciﬁed by the 
+attacker, usually a user input-ﬁlled buﬀer. 
+3. A function pointer, or exception handler, which is subsequently executed. The factors that contribute to overcome the exploits are 
+	1. Null bytes in addresses. 
+	2. Variability in the location of shell code. 
+	3. Diﬀerences between environments. 
+
+2. NOPs 
+NOP or NOOP (short form of no peration or no operation performed) is an assembly language instruction/ command that eﬀectively does 
+nothing at all. 
+
+3. Heap Buffer Overflow Heap buﬀer overﬂow occurs in the heap data area and may be introduced accidentally by an application programmer, or it may result from a deliberate exploit. In either case, the overﬂow occurs when an application copies more data into a buﬀer than the buﬀer was designed to contain. The characteristics of stack-based and heap-based programming are as follows: 
+ 
+1. “Heap” is a “free store” that is a memory space, where dynamic objects are allocated. 
+2. The heap is the memory space that is dynamically allocated new(), malloc() and calloc() functions. 
+3. Dynamically created variables are created on the heap before the execution program is initialized to zeros and are stored in the 
+memory until the life cycle of the object has completed. 
+
+How to Minimize Buffer Overflow
+------------------------------- 
+Although it is diﬃcult to prevent all possible attacks, the following methods will deﬁnitely help to minimize such attacks: 
+1. Assessment of secure code manually 
+2. Disable stack execution 
+3. Compilertools
+
+Countermeasures:
+-----------------
+Input Validation: Implement strict input validation to ensure data conforms to expected formats and sizes.
+Safe Coding Practices: Use safe coding practices and languages that inherently protect against buffer overflows (e.g., using bounds-
+checked functions).
+Static and Dynamic Analysis: Employ static and dynamic analysis tools to identify and fix buffer overflow vulnerabilities in code.
+Address Space Layout Randomization (ASLR): Use ASLR to randomize the memory address space, making it harder for attackers to predict 
+buffer overflow targets.
+Data Execution Prevention (DEP): Implement DEP to prevent the execution of code in non-executable memory regions.
+Code Reviews: Conduct regular code reviews and security audits to identify potential buffer overflow vulnerabilities.
+
+Attacks on Wireless Networks
+---------------------------- 
+Even when people travel, they still need to work. Thus, work seems to be moving out of the traditional oﬃces into homes, hotels, 
+airport lounges and taxis. 
+
+The following are diﬀerent types of “mobile workers”: 
+1. Tethered/remote worker: This is considered to be an employee who generally remains at a single point of work, but is remote to the
+------------------------ 
+central company systems. 
+2. Roaming user: This is either an employee who works in an environment (e.g., warehousing, shop ﬂoor, etc.) or in multiple areas
+---------------- 
+(e.g., meeting rooms). 
+3. Nomad: This category covers employees requiring solutions in hotel rooms and other semi- tethered environments where modem use is 
+--------
+still prevalent, along with the increasing use of multiple wireless technologies and devices. 
+4. Road warrior: This is the ultimate mobile user and spends little time in the oﬃce; however, he/she requires regular access to data
+---------------- 
+and collaborative functionality while on the move, in transit or in hotels. 
+ 
+Wireless technology is no more buzzword in today’s world. Let us understand important components of wireless network, apart from 
+components such as modems, routers, hubs and ﬁrewall, which are integral part of any wired network as well as wireless network. 
+
+1. 802.11 networking standards: Institute of Electrical and Electronics Engineers (IEEE)-802.11 is a family of standards for wireless 
+local area network (WLAN), stating the speciﬁcations and/or requirements for computer communication in the 2.4, 3.6 and 5 GHz 
+frequency bands. 
+2. Access points: It is also termed as AP. It is a hardware device and/or a software that acts as a central transmitter and receiver 
+of WLAN radio signals. 
+3. Access points: It is also termed as AP. It is a hardware device and/or a software that acts as a central transmitter and receiver 
+of WLAN radio signals. 
+	1. Free Wi-Fihotspots. 
+	2. Commercial hotspots. 
+4. Service Set Identiﬁer (SSID) 
+5. Wired Equivalence Privacy (WEP): 
+6. Wi-Fi Protected Access (WPA AND WPA2) 
+7. Media Access Control (MAC) 
+
+Traditional Techniques of Attacks on Wireless Networks
+------------------------------------------------------- 
+1. Sniﬃng: It is eavesdropping on the network and is the simplest of all attacks. Sniﬃng is the simple process of intercepting
+--------- 
+wireless data that is being broadcasted on an unsecured network. 
+2. Spooﬁng: The primary objective of this attack is to successfully masquerade the identity by falsifying data and thereby gaining an
+---------- 
+illegitimate advantage. 
+	1. MAC address Spooﬁng 
+	2. IP Spooﬁng 
+	3. Frame Spooﬁng 
+3. Denial of service (DoS) 
+4. Man-In-The-Middle Attack (MITM) 
+5. Encryption Cracking 
