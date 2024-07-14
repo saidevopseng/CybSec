@@ -820,7 +820,7 @@ into them, and if possible recover it. Automated tools are used to detect such s
 audio and/or video ﬁles. 
 
 Countermeasures:
-
+----------------
 Steganalysis Tools: Use steganalysis tools to detect hidden information within files and images.
 Network Monitoring: Monitor network traffic for patterns indicative of steganographic communications.
 Data Loss Prevention (DLP): Implement DLP solutions to detect and prevent the transmission of unauthorized data.
@@ -951,6 +951,53 @@ buffer overflow targets.
 Data Execution Prevention (DEP): Implement DEP to prevent the execution of code in non-executable memory regions.
 Code Reviews: Conduct regular code reviews and security audits to identify potential buffer overflow vulnerabilities.
 
+Sure, let's delve into each of these concepts with detailed explanations, real-world scenarios, and countermeasures.
+
+1. DoS and DDoS Attacks
+------------------------
+Denial of Service (DoS) Attack:
+-------------------------------
+- Concept: A DoS attack aims to make a computer or network resource unavailable to its intended users by overwhelming it with a flood 
+of illegitimate requests, causing the system to slow down or crash.
+- Example: An attacker sends an overwhelming number of requests to a web server, causing it to become unresponsive to legitimate users.
+- Real-World Scenario: In 2016, the Dyn DNS provider was hit by a massive DDoS attack that took down major websites like Twitter, 
+Netflix, and Reddit.
+- Countermeasures:
+-----------------
+  - Implementing rate limiting to control the number of requests a server can handle from a single IP.
+  - Using a Web Application Firewall (WAF) to filter and monitor HTTP traffic.
+  - Employing anti-DDoS services like Cloudflare or Akamai.
+
+Distributed Denial of Service (DDoS) Attack:
+---------------------------------------------
+- Concept: Similar to a DoS attack but launched from multiple compromised systems (botnets) distributed across various locations, 
+making it harder to mitigate.
+- Example: A botnet comprising thousands of infected devices floods a target server with requests.
+- Real-World Scenario: The Mirai botnet attack in 2016, which targeted DNS provider Dyn, involved tens of thousands of IoT devices.
+- Countermeasures:
+------------------
+  - Geographical IP blocking to limit traffic from suspicious regions.
+  - Redundancy and failover solutions to distribute traffic across multiple servers.
+  - Continuous network monitoring to detect abnormal traffic patterns early.
+
+2. SQL Injection
+----------------
+Concept:
+-------
+- SQL Injection (SQLi) is an attack where malicious SQL statements are inserted into an entry field for execution, potentially allowing the attacker to manipulate the database.
+
+Example:
+--------
+- An attacker enters `'; DROP TABLE users; --` in a login field, causing the server to execute the command and delete the `users` table.
+
+Real-World Scenario:
+- In 2012, attackers exploited SQL injection vulnerabilities on Yahoo to access 453,000 user accounts.
+
+Countermeasures:
+- Using prepared statements and parameterized queries to ensure SQL code and data are separated.
+- Validating and sanitizing user inputs to prevent malicious data from being processed.
+- Implementing Web Application Firewalls (WAF) to detect and block SQL injection attempts.
+
 Attacks on Wireless Networks
 ---------------------------- 
 Even when people travel, they still need to work. Thus, work seems to be moving out of the traditional oﬃces into homes, hotels, 
@@ -1001,3 +1048,68 @@ illegitimate advantage.
 3. Denial of service (DoS) 
 4. Man-In-The-Middle Attack (MITM) 
 5. Encryption Cracking 
+
+5. Identity Theft (ID Theft)
+Concept:
+- The unauthorized acquisition and use of someone's personal information, usually for financial gain.
+
+Example:
+- An attacker uses stolen credit card information to make unauthorized purchases.
+
+Real-World Scenario:
+- The 2017 Equifax breach exposed personal information of 147 million Americans, including Social Security numbers and credit card 
+details.
+
+Countermeasures:
+- Using strong, unique passwords for different accounts and enabling multi-factor authentication (MFA).
+- Monitoring financial statements and credit reports regularly for suspicious activity.
+- Implementing security measures like encryption for sensitive data storage and transmission.
+
+6. Footprinting and Social Engineering
+Footprinting:
+- Concept: Gathering information about a target system or organization to identify vulnerabilities.
+- Example: Using publicly available sources like WHOIS databases, websites, and social media to gather information.
+- Countermeasures:
+  - Limiting the amount of publicly available information about the organization.
+  - Implementing strong security policies and employee training on data privacy.
+
+Social Engineering:
+- Concept: Manipulating individuals into divulging confidential information or performing actions that compromise security.
+- Example: Phishing emails that trick recipients into revealing login credentials or clicking malicious links.
+- Countermeasures:
+  - Conducting regular security awareness training for employees.
+  - Implementing email filtering solutions to detect and block phishing attempts.
+  - Encouraging a culture of verification where employees confirm requests for sensitive information.
+
+7. Port Scanning
+Concept:
+- Port scanning is used to identify open ports and services on a target system, often as a precursor to an attack.
+
+Example:
+- An attacker uses a tool like Nmap to scan a server for open ports and identify potential entry points.
+
+Real-World Scenario:
+- A cybercriminal scans a company's network to find an open port running an outdated version of a web server, which they then exploit.
+
+Countermeasures:
+- Configuring firewalls to block unnecessary ports and limit access.
+- Regularly monitoring network traffic for unusual scanning activity.
+- Employing intrusion detection systems (IDS) to detect and alert on port scanning attempts.
+
+8. Enumeration
+- Enumeration involves extracting detailed information about a target network, such as user accounts, shared resources, and network 
+configurations.
+
+Example:
+- An attacker uses tools like NetBIOS or SNMP enumeration to list shared resources and user accounts on a target network.
+
+Real-World Scenario:
+- During the early stages of an attack, a cybercriminal enumerates user accounts and attempts to brute-force passwords to gain access.
+
+Countermeasures:
+- Disabling unnecessary services and ports to limit information exposure.
+- Enforcing strong password policies and account lockout mechanisms.
+- Configuring proper access controls and permissions on shared resources.
+
+By understanding these attack vectors and implementing appropriate countermeasures, organizations can significantly enhance their 
+cybersecurity posture and protect against a wide range of threats.
